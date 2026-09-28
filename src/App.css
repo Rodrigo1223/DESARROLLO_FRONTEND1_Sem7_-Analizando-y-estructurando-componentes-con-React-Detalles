@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+h1 {
+  text-align: center;
+  color: #111827;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  opacity: 1 !important;
+}
+
+h2, h3, h4, p, span {
+  opacity: 1 !important;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
